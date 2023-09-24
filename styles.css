@@ -1,2 +1,18 @@
 
 /* Your CSS Code here. */
+.holder {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Two equal columns */
+  grid-template-rows: repeat(2, 1fr); /* Two equal rows */
+  width: 200px;
+  height: 200px;
+  grid-gap: 5px; /* Adjust this value for spacing between items */
+}
+
+.item {
+  border: 1px solid #000;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Optional: Adjust item styles as needed */
